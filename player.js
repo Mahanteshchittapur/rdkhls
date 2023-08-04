@@ -301,7 +301,7 @@ function initializeHlsPlayer(url) {
 
 // Add event listener to the play button
 playButton.addEventListener("click", () => {
-    const videoUrl = "https://playertest.longtailvideo.com/adaptive/captions/playlist.m3u8"; // Replace with your .m3u8 URL
+    const videoUrl = "https://assets.afcdn.com/video49/20210722/v_645516.m3u8"; // Replace with your .m3u8 URL
     initializeHlsPlayer(videoUrl);
 
     // Request full-screen mode for the video element
